@@ -1,0 +1,93 @@
+
+
+ /* html {
+  background-image: linear-gradient( white,  green, red);
+   
+  background-attachment: fixed;  
+  background-size: cover;
+} */
+html {
+  background-color: #0a0a0af8;
+}
+
+.city {
+ color: white;
+ text-align: center;
+
+ margin: 25px;
+ font-size: 35px;
+  }
+
+ .sup  {
+   font-size: 15px;
+ }
+
+ .para {
+   color: whitesmoke;
+   font-size: 20px;
+   display: none;
+
+  
+ }
+
+ .city:hover .para {
+display: grid;
+ }
+
+  
+ 
+
+ .center {
+    text-align: center;
+   }
+
+  .center button  {
+width: 163px;
+border-color: 2px solid cornsilk;
+border-radius: 40px;
+margin-top: 5px;
+background-color: black; 
+color: cornsilk;
+ 
+   }
+
+  .center input {
+    width: 157px;
+     opacity: 0.9;
+     border-radius: 40px;
+     margin-top: 5px;
+     padding: 2px;
+     text-align: center;
+     border-style: none;
+      
+
+  }
+
+
+img {
+  max-height: 90%;
+  max-width: 90%;
+  vertical-align: text-top;
+  }
+
+.container {
+   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+  
+  grid-gap: 1rem;
+  }
+  .card {
+       margin: 0 auto;
+    background-color: rgb(243, 236, 236);
+     
+     
+    border-radius: 15px;
+     color: rgb(32, 30, 30);
+    text-align: center;
+    padding: 3px;
+
+  }
+  .card:hover {
+    background-color: rgb(145, 181, 248);
+  }
+  
